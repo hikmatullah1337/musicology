@@ -577,7 +577,7 @@ i {
         align-self: center;
     }
     .secondary__cta__content .btn input {
-        width: 320px;
+        width: 200px;
     }
     .secondary__cta__content h1 {
         font-size: 3rem;
@@ -629,5 +629,9 @@ i {
 
     .footer .all {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__content {
+        margin-bottom: 2rem;
     }
 }
