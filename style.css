@@ -92,6 +92,7 @@ i {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .hero__content {
@@ -586,6 +587,11 @@ i {
     .statistics__content .card h2 {
         font-size: 3rem;
     }
+
+    .right__side .right__side__content a,
+    .left__side .left__side__content a {
+        padding: 1rem 3.3rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -633,6 +639,6 @@ i {
     }
 
     .footer__content {
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
 }
